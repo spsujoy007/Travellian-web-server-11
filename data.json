@@ -1,0 +1,44 @@
+[
+    {
+        "title": "Canada",
+        "img": "https://www.planetware.com/photos-large/CDN/canada-best-places-vancouver.jpg",
+        "description": "Canada is a country in North America. Its ten provinces and three territories extend from the Atlantic Ocean to the Pacific Ocean and northward into the Arctic Ocean, covering over 9.98 million square kilometres, making it the world's second-largest country by total area.",
+        "price": "1200",
+        "service_id": "1"
+    },
+    {
+        "title": "Fantasy Kingdom",
+        "img": "https://porzoton.com/wp-content/uploads/2020/12/Fantasy-Kingdom-Theme-Park.jpg",
+        "description": "The Fantasy Kingdom Complex, commonly known as Fantasy Kingdom, is an entertainment complex in Ashulia, Savar, Bangladesh. Opened on 19 February 2002, the theme park is owned and operated by Concord Entertainment Co. Ltd, a sister concern of Concord Group.",
+        "price": "1399",
+        "service_id": "2"
+    },
+    {
+        "title": "Hong Kong",
+        "img": "https://cloudfront-us-east-2.images.arcpublishing.com/reuters/SA6UWTOHOZOZVNMXKLM5L7GIWA.jpg",
+        "description": "Hong Kong, officially the Hong Kong Special Administrative Region of the People's Republic of China, is a city and special administrative region of China on the eastern Pearl River Delta in South China.",
+        "price": "1499",
+        "service_id": "3"
+    },
+    {
+        "title": "Switzerland",
+        "img": "https://deih43ym53wif.cloudfront.net/bern-switzerland-shutterstock_1845136612.jpg_ecb4c93750.jpg",
+        "description": "Switzerland is a mountainous Central European country, home to numerous lakes, villages and the high peaks of the Alps. Its cities contain medieval quarters, with landmarks like capital Berns Zytglogge clock tower and Lucernes wooden chapel bridge. The country is also known for its ski resorts and hiking trails. ",
+        "price": "1577",
+        "service_id": "4"
+    },
+    {
+        "title": "Bangalore",
+        "img": "https://i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_675,pg_1,q_80,w_1200/1432fedb88c0d1cc56f4c496a80f251c.jpg",
+        "description": "Bengaluru (also called Bangalore) is the capital of India's southern Karnataka state. The center of India's high-tech industry, the city is also known for its parks and nightlife. By Cubbon Park, Vidhana Soudha is a Neo-Dravidian legislative building. Former royal residences include 19th-century Bangalore Palace, modeled after Englands Windsor Castle, and Tipu Sultans Summer Palace, an 18th-century teak structure.",
+        "price": "1155",
+        "service_id": "5"
+    },
+    {
+        "title": "New Zealand",
+        "img": "https://cdn.theculturetrip.com/wp-content/uploads/2020/08/aoraki-mt-cook-new-zealand-e1597846479229.jpg",
+        "description": "New Zealand is an island country in the southwestern Pacific Ocean. It consists of two main landmasses—the North Island and the South Island —and over 700 smaller islands. It is the sixth-largest island country by area, covering 268,021 square kilometres.",
+        "price": "1788",
+        "service_id": "6"
+    }
+]
