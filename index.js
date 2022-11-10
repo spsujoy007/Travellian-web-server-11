@@ -1,6 +1,6 @@
 const express = require("express")
 const cors = require('cors');
-const { MongoClient, ServerApiVersion, ObjectId } = require('mongodb');
+const { MongoClient, ServerApiVersion, ObjectId, ObjectID } = require('mongodb');
 const port = process.env.PORT || 5000;
 const app = express()
 require('dotenv').config();
@@ -42,6 +42,13 @@ async function run(){
       res.send(service)
     });
 
+    //Add new service 
+    app.post('/service', async(req, res) => {
+      const query = req.body;
+      const result = await serviceCollection.insertOne(query);
+      res.send(result)
+    })
+
     // post comment 
     app.post('/reviews', async(req, res) => {
       const query = req.body;
@@ -53,13 +60,23 @@ async function run(){
 
     app.get('/reviews', async(req, res) => {
       let query = {};
-      if(req.query.email) {
-        query = {email: req.query.email}
+      if(req.query.serviceId) {
+        query = {serviceId: req.query._id}
+        const cursor = reviewCollection.find(query);
+        const reviews = await cursor.toArray()
+        return res.send(reviews)
       }
       console.log(query);
       const cursor = reviewCollection.find(query);
       const reviews = await cursor.toArray()
       res.send(reviews)
+    })
+
+    app.get('/reviews/:id', async(req, res) => {
+      const id = req.params.id;
+            const query = { _id: ObjectId(id) };
+            const result = await reviewCollection.findOne(query);
+            res.send(result);
     })
 
   }
